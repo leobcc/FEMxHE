@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code used for a number of examples regarding heat diffusion problems. It is made public, for everyone to be able to reproduce the results of the proposed examples, for which we privide Python Jupyter notebooks. Each problem's solution is given through numerical methods, specifically using the Finite Element Method (FEM). The implementation relies on the FEniCS library.
+This repository contains the code used for a number of examples regarding heat diffusion problems. It is made public, for everyone to be able to reproduce the results of the proposed examples, for which we provide Python Jupyter notebooks. Each problem's solution is given through numerical methods, specifically using the Finite Element Method (FEM). The implementation relies on the FEniCS library.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ In order to run the proposed examples, start by cloning this repository
 git clone https://github.com/leobcc/FEMxHE.git
 cd FEMxHE
 ```
-Then you will need to install the necessary DOLPHINx environment, including the FEniCSx library. For the installation you can refer to their page https://github.com/FEniCS/dolfinx, on which they propose different methods to procede. In our case, we use the docker image containing a Jupyter Lab environment with the latest stable release of DOLFINx
+Then you will need to install the necessary DOLPHINx environment, including the FEniCSx library. For the installation, you can refer to their page https://github.com/FEniCS/dolfinx, on which they propose different methods to proceed. In our case, we use the docker image containing a Jupyter Lab environment with the latest stable release of DOLFINx
 
 ```bash
 docker run --init -ti --gpus all --name fenicsx -p 8888:8888 -v "${PWD}:/root/FEMxHE" dolfinx/lab:stable
@@ -33,7 +33,7 @@ The dependencies are numerous but they coincide with the ones of the computation
 
 ## Usage
 
-To reproduce the results of the examples, no further particular action is needed. Each example is studyed and solved in its dedicated Jupyer notebook, so that the results are easily reproduceable by simply going through the notebook itself.
+To reproduce the results of the examples, no further particular action is needed. Each example is studied and solved in its dedicated Jupyer notebook, so that the results are easily reproducible by simply going through the notebook itself.
 
 ## License
 
