@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code used for a number of examples regarding heat diffusion problems. It is made public, for everyone to be able to reproduce the results of the proposed examples, for which we privide Python Jupyter notebooks. Each problem's solution is given through numerical methods, spicifcally using the Finite Element Method (FEM). The implementation relies on the FEniCS library.
+This repository contains the code used for a number of examples regarding heat diffusion problems. It is made public, for everyone to be able to reproduce the results of the proposed examples, for which we privide Python Jupyter notebooks. Each problem's solution is given through numerical methods, specifically using the Finite Element Method (FEM). The implementation relies on the FEniCS library.
 
 ## Table of Contents
 
